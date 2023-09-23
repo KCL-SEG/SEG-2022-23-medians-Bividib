@@ -10,3 +10,9 @@ while True:
     else:
         break
 print(numbers)
+
+size = len(numbers)
+if size%2 == 1: 
+    print(numbers[(size-1)/2])
+else: 
+    print((numbers[size/2]+numbers[(size/2)-1])/2)
