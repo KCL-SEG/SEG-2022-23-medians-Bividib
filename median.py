@@ -11,6 +11,8 @@ while True:
         break
 print(numbers)
 
+numbers.sort()
+
 size = len(numbers)
 if size%2 == 1: 
     print(numbers[int((size-1)/2)])
